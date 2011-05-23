@@ -63,7 +63,7 @@ Module::Version::File - Module for getting version from module_file.
 
 =head1 DEPENDENCIES
 
-L<Error::Pure(3pm),
+L<Error::Pure(3pm)>,
 L<ExtUtils::MakeMaker(3pm)>,
 L<Exporter(3pm)>,
 L<Readonly(3pm)>.

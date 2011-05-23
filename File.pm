@@ -30,3 +30,58 @@ sub get_version {
 }
 
 1;
+
+__END__
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+Module::Version::File - Module for getting version from module_file.
+
+=head1 SYNOPSIS
+
+ use Module::Version::File qw(get_version);
+ my $version = get_version($module_file);
+
+=head1 SUBROUTINES
+
+=over 8
+
+=item C<get_version($module_file)>
+
+ Gets version from $module_file.
+
+=back
+
+=head1 ERRORS
+
+ Mine:
+         Cannot read file '%s'.
+
+=head1 DEPENDENCIES
+
+L<Error::Pure(3pm),
+L<ExtUtils::MakeMaker(3pm)>,
+L<Exporter(3pm)>,
+L<Readonly(3pm)>.
+
+=head1 SEE ALSO
+
+L<Module::Version(3pm)>.
+
+=head1 AUTHOR
+
+Michal Špaček L<skim@cpan.org>
+
+=head1 LICENSE AND COPYRIGHT
+
+BSD license.
+
+=head1 VERSION
+
+0.01
+
+=cut

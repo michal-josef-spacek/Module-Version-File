@@ -58,7 +58,7 @@ Module::Version::File - Module for getting version from module_file.
 
 =head1 ERRORS
 
- Mine:
+ get_version():
          Cannot read file '%s'.
 
 =head1 DEPENDENCIES

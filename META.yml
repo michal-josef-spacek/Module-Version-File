@@ -21,6 +21,7 @@ meta-spec:
 name: Module-Version-File
 no_index:
   directory:
+    - examples
     - inc
     - t
 requires:

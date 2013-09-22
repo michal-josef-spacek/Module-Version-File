@@ -2,7 +2,8 @@ TODO
 ====
 3. Zjistit, jestli pro to existuje modul? Mam dojem, ze neco existuje.
 Module::Extract::VERSION
-4.
+4. Vytahnout kod z ExtUtils::MakeMaker sem.
+5.
 
 Applied
 =======

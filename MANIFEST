@@ -16,9 +16,9 @@ t/data/Ex1.pm
 t/data/RCS.pm
 t/data/ToTk.pm
 t/data/Underscore.pm
-t/Module::Version::File/00-use.t
-t/Module::Version::File/01-version.t
-t/Module::Version::File/02-pod_coverage.t
-t/Module::Version::File/03-pod.t
-t/Module::Version::File/04-get_version.t
+t/Module-Version-File/00-use.t
+t/Module-Version-File/01-version.t
+t/Module-Version-File/02-pod_coverage.t
+t/Module-Version-File/03-pod.t
+t/Module-Version-File/04-get_version.t
 TODO

@@ -1,8 +1,7 @@
 TODO
 ====
 3. Zjistit, jestli pro to existuje modul? Mam dojem, ze neco existuje.
-man 3pm version
-man 3pm Module::Version
+Module::Extract::VERSION
 4.
 
 Applied

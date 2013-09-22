@@ -70,7 +70,8 @@ L<Readonly(3pm)>.
 
 =head1 SEE ALSO
 
-L<Module::Version(3pm)>.
+L<Module::Version(3pm)>,
+L<Module::Extract::VERSION(3pm)>.
 
 =head1 AUTHOR
 

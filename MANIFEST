@@ -1,0 +1,21 @@
+Changes
+File.pm
+inc/Module/Install.pm
+inc/Module/Install/Base.pm
+inc/Module/Install/Can.pm
+inc/Module/Install/Fetch.pm
+inc/Module/Install/Makefile.pm
+inc/Module/Install/Metadata.pm
+inc/Module/Install/Win32.pm
+inc/Module/Install/WriteAll.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+META.yml
+t/data/Ex1.pm
+t/Module::Version::File/00-use.t
+t/Module::Version::File/01-version.t
+t/Module::Version::File/02-pod_coverage.t
+t/Module::Version::File/03-pod.t
+t/Module::Version::File/04-get_version.t
+TODO

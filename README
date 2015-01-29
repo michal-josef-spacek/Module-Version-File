@@ -1,0 +1,67 @@
+NAME
+    Module::Version::File - Module for getting version from module_file.
+
+SYNOPSIS
+     use Module::Version::File qw(get_version);
+     my $version = get_version($module_file);
+
+SUBROUTINES
+    "get_version($module_file)"
+             Gets version from $module_file.
+
+ERRORS
+     get_version():
+             Cannot read file '%s'.
+
+EXAMPLE
+     # Pragmas.
+     use strict;
+     use warnings;
+
+     # Modules.
+     use File::Temp;
+     use IO::Barf qw(barf);
+     use Module::Version::File qw(get_version);
+ 
+     # Example module data.
+     my $example_module = <<"END";
+     package Foo;
+     use strict;
+     use warnings;
+     our \$VERSION = 3.14;
+     END
+
+     # Temporary file.
+     my $temp_file = File::Temp->new->filename;
+
+     # Create exmaple module.
+     barf($temp_file, $example_module);
+
+     # Get version.
+     my $version = get_version($temp_file);
+
+     # Print out.
+     print "$version\n";
+
+     # Unlink temporary file.
+     unlink $temp_file;
+
+     # Output.
+     # 3.14
+
+DEPENDENCIES
+    Error::Pure, ExtUtils::MakeMaker, Exporter, Readonly.
+
+SEE ALSO
+    Module::Version, Module::Extract::VERSION.
+
+AUTHOR
+    Michal Špaček skim@cpan.org
+
+LICENSE AND COPYRIGHT
+     © 2011-2015 Michal Špaček
+     BSD 2-Clause License
+
+VERSION
+    0.01
+

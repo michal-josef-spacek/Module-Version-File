@@ -10,6 +10,7 @@ abstract 'Module for getting version from module_file.';
 author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Module-Version-File';
+readme_from 'File.pm';
 requires 'Error::Pure' => 0.08;
 requires 'ExtUtils::MakeMaker' => 0;
 requires 'Readonly' => 0;

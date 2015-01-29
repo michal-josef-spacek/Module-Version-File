@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Module for getting version from module_file.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Module-Version-File';
 requires 'Error::Pure' => 0.08;

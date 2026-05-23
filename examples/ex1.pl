@@ -1,10 +1,8 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use File::Temp;
 use IO::Barf qw(barf);
 use Module::Version::File qw(get_version);

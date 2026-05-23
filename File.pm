@@ -1,11 +1,9 @@
 package Module::Version::File;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use Error::Pure qw(err);
 use ExtUtils::MakeMaker;
 use Readonly;
@@ -63,11 +61,9 @@ Module::Version::File - Module for getting version from module_file.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use File::Temp;
  use IO::Barf qw(barf);
  use Module::Version::File qw(get_version);

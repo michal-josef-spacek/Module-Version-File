@@ -1,8 +1,6 @@
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use File::Object;
 use Module::Version::File qw(get_version);
 use Test::More 'tests' => 4;

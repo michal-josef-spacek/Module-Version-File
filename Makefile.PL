@@ -6,7 +6,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Module for getting version from module_file.';
-author 'Michal Spacek <skim@cpan.org>';
+author 'Michal Josef Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Module-Version-File';
 readme_from 'File.pm';

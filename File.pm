@@ -103,8 +103,17 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Module::Version>,
-L<Module::Extract::VERSION>.
+=over 8
+
+=item * L<Module::Version>
+
+Get module versions
+
+=item * L<Module::Extract::VERSION>
+
+Extract a module version safely
+
+=back
 
 =head1 AUTHOR
 

@@ -51,7 +51,13 @@ DEPENDENCIES
     Error::Pure, ExtUtils::MakeMaker, Exporter, Readonly.
 
 SEE ALSO
-    Module::Version, Module::Extract::VERSION.
+    *       Module::Version
+
+            Get module versions
+
+    *       Module::Extract::VERSION
+
+            Extract a module version safely
 
 AUTHOR
     Michal Špaček skim@cpan.org

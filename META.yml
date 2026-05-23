@@ -24,6 +24,7 @@ no_index:
     - examples
     - inc
     - t
+    - xt
 requires:
   Error::Pure: 0.08
   ExtUtils::MakeMaker: 0

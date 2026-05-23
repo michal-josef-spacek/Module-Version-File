@@ -30,7 +30,7 @@ requires:
   Readonly: 0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Module-Version-File
-  homepage: https://github.com/tupinek/Module-Version-File
+  homepage: https://github.com/michal-josef-spacek/Module-Version-File
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/Module-Version-File
+  repository: git://github.com/michal-josef-spacek/Module-Version-File
 version: '0.01'

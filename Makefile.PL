@@ -13,8 +13,7 @@ readme_from 'File.pm';
 requires 'Error::Pure' => 0.08;
 requires 'ExtUtils::MakeMaker' => 0;
 requires 'Readonly' => 0;
-resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
-	'?Name=Module-Version-File';
+resources 'bugtracker' => 'https://github.com/michal-josef-spacek/Module-Version-File/issues';
 resources 'homepage' => 'https://github.com/michal-josef-spacek/Module-Version-File';
 resources 'repository' => 'git://github.com/michal-josef-spacek/Module-Version-File';
 test_requires 'English' => 0;

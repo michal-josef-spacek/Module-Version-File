@@ -29,7 +29,7 @@ requires:
   ExtUtils::MakeMaker: 0
   Readonly: 0
 resources:
-  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Module-Version-File
+  bugtracker: https://github.com/michal-josef-spacek/Module-Version-File/issues
   homepage: https://github.com/michal-josef-spacek/Module-Version-File
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/michal-josef-spacek/Module-Version-File
